@@ -1,5 +1,5 @@
 # Load function
-Rcpp::sourceCpp('core_5.cpp')
+Rcpp::sourceCpp('core_github.cpp')
 
 # Input data
 # US cumulative confirmed cases between 01/22 and 05/18, 2020
