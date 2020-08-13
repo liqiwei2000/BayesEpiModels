@@ -498,6 +498,7 @@ Rcpp::List growth_model_grm(IntegerVector C, double p, double alpha, int POP, in
                               Rcpp::Named("gamma_map") = gamma_map, 
                               Rcpp::Named("p_map") = p_map, 
                               Rcpp::Named("alpha_map") = alpha_map, 
+                              Rcpp::Named("logposterior_store") = logposterior_store,
                               Rcpp::Named("phi_store") = phi_store, 
                               Rcpp::Named("K_store") = K_store, 
                               Rcpp::Named("gamma_store") = gamma_store, 
@@ -892,6 +893,7 @@ Rcpp::List growth_model_2p(IntegerVector C, int POP, int T_fin, int model, bool 
                               Rcpp::Named("phi_map") = phi_map, 
                               Rcpp::Named("K_map") = K_map, 
                               Rcpp::Named("gamma_map") = gamma_map, 
+                              Rcpp::Named("logposterior_store") = logposterior_store,
                               Rcpp::Named("phi_store") = phi_store, 
                               Rcpp::Named("K_store") = K_store, 
                               Rcpp::Named("gamma_store") = gamma_store);
