@@ -1,5 +1,5 @@
-# BayesGrowthModels
-This repository is used for accessing the performance of different population growth models in a Bayesian framework. Before running the code, please install two R packages: Rcpp and RcppArmadillo.
+# BayesEpiModels
+This repository is used for accessing the performance of different epidemiological models (including both growth and compartmental models) in a Bayesian framework. Before running the code, please install two R packages: Rcpp and RcppArmadillo.
 
 There are two core functions written in C++: growth_model_grm and growth_model_2p. The former can be used to fit the generalized Richards growth model (GRM) and its special cases including Richards growth model, generalized logistic growth model, logistic growth model, and von Bertalanffy growth model. For more details, refer to the paper titled "Analysis of Logistic Growth Models," written by A. Tsoularis and published in Research Letters in the Information and Mathematical Sciences (2001) volume 2, page 23-46. The latter can be used to fit the growth models that have two key parameters: carrying capacity (i.e. final epedemic size) and intrinsic growth rate (transmission rate at the early stage).
 
